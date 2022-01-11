@@ -4,8 +4,8 @@
     grid-auto-columns: auto;
     grid-auto-rows: auto;
     grid-template-columns: auto auto;
-    gap: 30px 30px;
-    padding: 50px 50px;
+    gap: 15px;
+    padding: 50px 05px;
 }
 
 @media(max-width: 600px) {
@@ -28,14 +28,15 @@ body {
 // textos
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 h1,
-h2 {
+h2,
+h3 {
     text-transform: uppercase;
     font-family: 'Poppins', sans-serif;
     font-size: 15px !important;
 }
 
 .bodyText {
-    text-align: center;
+    text-align: left;
     font-size: 15px;
 }
 
