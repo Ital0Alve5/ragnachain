@@ -2,7 +2,7 @@
 <q-page >
      <q-img src="../assets/images/big-img.jpg" width="100%" alt="Home" id="home"></q-img>
     <div class="content">
-        <div class="col">
+        <div class="coluna">
             <div>
                 <h1>Ragnachain is a private server of ragnarok online.</h1>
             </div>
@@ -23,7 +23,7 @@
             </div>
         </div>
         <h2 align="center" id="currency">currency</h2>
-        <div class="col">
+        <div class="coluna">
             <div>you can trade inside the game using this currencies:</div>
             <div>
                 bitcoin: US$ {{btcValor.high}} (Last Update: Now) <br>
