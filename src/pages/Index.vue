@@ -1,13 +1,13 @@
 <template>
 <q-page >
-     <q-img src="../assets/images/big-img.jpg" width="100%" alt="Raio"></q-img>
+     <q-img src="../assets/images/big-img.jpg" width="100%" alt="Home" id="home"></q-img>
     <div class="content">
         <div class="col">
             <div>
                 <h1>Ragnachain is a private server of ragnarok online.</h1>
             </div>
             <div>Logo</div>
-            <div class="bodyText">
+            <div class="bodyText" id="server">
                 The Server will have the divroporsal to be evolutionary over the
                 months, the player will be able to obtain crypto currency and real
                 money with the proposed missions and objectives. In addition to being
@@ -17,12 +17,12 @@
             <div>
                 <q-img src="../assets/images/raid.jpg" width="300px" alt="Raid"></q-img>
             </div>
-            <div>IMG</div>
+            <div id="download">IMG</div>
             <div>
                 <q-btn flat class="downloadBtn">DOWNLOAD HERE</q-btn>
             </div>
         </div>
-        <h2 align="center">currency</h2>
+        <h2 align="center" id="currency">currency</h2>
         <div class="col">
             <div>you can trade inside the game using this currencies:</div>
             <div>
