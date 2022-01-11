@@ -19,7 +19,8 @@
       <h2 align="center">currency</h2>
       <div class="col">
         <div>you can trade inside the game using this currencies:</div>
-        <div>8</div>
+        <div>bitcoin: US$ {{btcValor.high}} (Last Update: Now)</div>
+
       </div>
     </div>
   </q-page>
@@ -30,5 +31,16 @@ import { defineComponent } from "vue";
 
 export default defineComponent({
   name: "PageIndex",
+  created() {
+  // cotação Bitcoin
+  fetch("https://economia.awesomeapi.com.br/last/BTC-USD")
+    .then(response => response.json())
+    .then(data => (this.btcValor = data.BTCUSD));
+},
+data() {
+  return {
+    btcValor:[]
+  }
+},
 });
 </script>
