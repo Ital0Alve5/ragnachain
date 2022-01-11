@@ -11,8 +11,8 @@
                 The Server will have the divroporsal to be evolutionary over the
                 months, the player will be able to obtain crypto currency and real
                 money with the proposed missions and objectives. In addition to being
-                able to use its resources for trading inside the game. <br />
-                ragnachain will be released at freburary'22.
+                able to use its resources for trading inside the game. <br /><br />
+                ragnachain will be released at frebrurary'22.
             </div>
             <div>
                 <q-img src="../assets/images/raid.jpg" width="300px" alt="Raid"></q-img>
