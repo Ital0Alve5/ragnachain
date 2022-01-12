@@ -5,17 +5,17 @@
         404
       </div>
 
-      <div class="text-h2" style="opacity:.4">
+      <div class="text-" style="opacity:.4">
        Erro, volte para a página anterior...
       </div>
 
       <q-btn
         class="q-mt-xl"
-        color="black"
-        text-color="blue"
+        color="white"
+        text-color="black"
         unelevated
         to="/"
-        label="Go Home"
+        label="Voltar"
         no-caps
       />
     </div>

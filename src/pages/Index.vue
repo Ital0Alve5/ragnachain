@@ -1,23 +1,23 @@
 <template>
 <q-page >
      <q-img src="../assets/images/big-img.jpg" width="100%" alt="Home" id="home"></q-img>
-    <div class="content">
+    <div class="content" id="home">
         <div class="coluna">
             <div>
-                <h1>Ragnachain is a private server of ragnarok online.</h1>
+                <h1 align="center">Ragnachain is a private server of ragnarok online.</h1>
             </div>
             <div>Logo</div>
             <div class="bodyText" id="server">
-                The Server will have the divroporsal to be evolutionary over the
+                The Server will have the proporsal to be evolutionary over the
                 months, the player will be able to obtain crypto currency and real
                 money with the proposed missions and objectives. In addition to being
                 able to use its resources for trading inside the game. <br /><br />
-                ragnachain will be released at frebrurary'22.
+                ragnachain will be released at frebruary'22.
             </div>
             <div>
                 <q-img src="../assets/images/raid.jpg" width="300px" alt="Raid"></q-img>
             </div>
-            <div id="download">IMG</div>
+            <div id="download"><q-img src="../assets/images/pngwing.com4.png" width="300px" alt="Raid"></q-img></div>
             <div>
                 <q-btn flat class="downloadBtn">DOWNLOAD HERE</q-btn>
             </div>
